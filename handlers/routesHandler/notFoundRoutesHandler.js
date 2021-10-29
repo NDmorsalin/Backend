@@ -13,7 +13,7 @@ const notFoundRoutes = {};
 
 // sample Routes Handler Function
 notFoundRoutes.notFoundRoutesHandler = (requestPropertes,callback)=>{
-    console.log(requestPropertes)
+    //console.log(requestPropertes)
    callback(404,{
        massage: 'your page not found',
    });

@@ -14,7 +14,12 @@ const environments = {};
 environments.staging = {
     port: 3000,
     envName: 'staging',
-    secretKey: 'ajsjshshsaja'
+    secretKey: 'ajsjshshsaja',
+    twilio:{
+        fromPhone: '+15005550006',
+        accountSid:'ACe78d9783d02f1fcf63b8bc268fc3de50',
+        authToken:'5f9e90e56cd05e6b8764db85fac0bc1a',
+    }
 }
 environments.production = {
     port: 3000,
